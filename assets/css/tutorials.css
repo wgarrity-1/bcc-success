@@ -1,0 +1,146 @@
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+.notice-box {
+	background-color: lightyellow;
+	padding: 15px;
+	width: 80%;
+	margin: auto;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.notice-box-triangle {
+	font-size: 5rem;
+	margin-right: 10px;
+	color: red;
+}
+
+.codesnip {
+	background-color: lightgray;
+	padding: 20px;
+	clear: both;
+}
+
+.codesnip pre {
+	margin: 0px;
+	white-space: break-spaces;
+}
+
+.codesnip code {
+	padding: 15px;
+	border-left: 20px solid orange;
+	box-sizing: border-box;
+}
+
+.codesnip a, main button {
+	display: block;
+	background-color: orange;
+	color: white;
+	width: 30%;
+	margin: 15px auto 0px auto;
+	padding: 10px;
+	font-size: 1.1rem;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.codesnip a:hover, main button:hover{
+	background-color: #d18700;
+}
+
+table {
+	border: 5px solid orange;
+	font-size: 1.1rem;
+	border-spacing: 0px;
+	margin: auto;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid black;
+}
+
+.little-quiz {
+	background-color: lightgray;
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 1.1rem;
+}
+
+.little-quiz-header {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.little-quiz-button {
+	display: block;
+	background-color: orange;
+	color: white;
+	width: 30%;
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 1.1rem;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.little-quiz-button:hover {
+	background-color: #d18700;
+}
+
+#feedback {
+	margin-top: 10px;
+	font-size: 1.3rem;
+}
+
+.image-tutorial {
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+
+.image-tutorial-alt {
+	display: block;
+	margin: auto;
+}
+
+ul li{
+	margin: 10px 0px;
+}
+
+#really-small {
+	color: lightgray;
+	font-size: 1px;
+}
+
+
+@media only screen and (max-width: 450px){
+	
+	.codesnip {
+		max-width: 250px;
+		margin: auto;
+	}
+	
+}
+
+@media only screen and (max-width: 350px){
+	
+	.codesnip {
+		max-width: 200px;
+		margin: auto;
+	}
+	
+}

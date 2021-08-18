@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Snowflake</title>
+    <script>
+    
+        function setup()
+        {
+            var pics = "";
+			/* changed 25 to 50 to double the ammount of Ts on the page */
+            for (i = 0; i < 50; i++)
+            {
+				/* changed from the original snowflake.png */
+               pics = pics + "<img src=\"logo.png\" id=\"id" + i +"\" />";
+            }
+            
+        document.getElementById("box").innerHTML = pics;
+        
+			/* changed 25 to 50 to double the ammount of Ts on the page */
+        for (i = 0; i < 50; i++)
+        {
+            document.getElementById("id" + i).style.position = "absolute";
+            
+    var x = Math.floor((Math.random() * window.innerWidth));
+    var y = Math.floor((Math.random() * window.innerHeight));
+    document.getElementById("id" + i).style.left = x+"px";
+    document.getElementById("id" + i).style.top = y+"px";    
+        }
+        
+        move();
+        
+        }
+        
+        
+        
+        function move()
+        {
+			/* changed 25 to 50 to double the ammount of Ts on the page */
+            for (i=0; i<50; i++)
+            {
+                f=document.getElementById("id"+i);
+                var x=parseInt(f.style.left);
+                var y=parseInt(f.style.top);
+                y++;
+                if (y < window.innerHeight)
+                {
+                    f.style.top = y + "px";
+                }
+                else
+                {
+                   f.style.top = "0px"; 
+                }
+                
+                
+                
+            }
+			/* changed 50 to 25 to double the speed the Ts moved at */
+            setTimeout("move()",25);
+        }
+        
+        </script>
+	
+	
+	<!-- added to decrease the size of the image -->
+	<style>
+		
+		img {
+			width: 30px;
+		}
+		
+	</style>
+	
+</head>
+
+<body onload="setup()">
+    
+<span id="box">RANDOM</span>
+
+
+</body>
+</html>

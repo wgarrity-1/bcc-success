@@ -1,0 +1,20 @@
+
+#homepage-top-words {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.8;
+}
+
+.topwords-emp {
+	background-color: yellow;
+	padding: 5px;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+#homepage-sub-words {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.3rem
+}

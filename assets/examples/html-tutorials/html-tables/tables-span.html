@@ -1,0 +1,65 @@
+<head>
+	<title>Column and Row Span</title>
+</head>
+
+<body>
+	
+	<p>It can get really tricky to span cells as you need to get rid of one td tag in the desired location(s) of the span. If you are spanning a cell into two columns, you would need to get rid of 1 td tag in the same row as the cell you are spanning. If you are spanning a cell into 2 rows, you would need to get rid of 1 td tag in the row that you are spanning in to. If you don't do this, your table will look messed up. Lets look at some examples:</p>
+	
+	<h2>Proper Cell Spanning</h2>
+	<h3>Column Span</h3>
+	<table border="2" cellpadding="5">
+		<tr>
+			<td>First</td>
+			<td colspan="2">Second</td>
+		</tr>
+		<tr>
+			<td>Third</td>
+			<td>Fourth</td>
+			<td>Fifth</td>
+		</tr>
+	</table>
+	
+	<h3>Row Span</h3>
+	<table border="2" cellpadding="5">
+		<tr>
+			<td>First</td>
+			<td rowspan="2">Second</td>
+			<td>Third</td>
+		</tr>
+		<tr>
+			<td>Fourth</td>
+			<td>Fifth</td>
+		</tr>
+	</table>
+	
+	<h2>Improper Cell Spanning</h2>
+	<h3>Column Span</h3>
+	<table border="2" cellpadding="5">
+		<tr>
+			<td>First</td>
+			<td colspan="2">Second</td>
+			<td>Third</td>
+		</tr>
+		<tr>
+			<td>Fourth</td>
+			<td>Fifth</td>
+			<td>Sixth</td>
+		</tr>
+	</table>
+	
+	<h3>Row Span</h3>
+	<table border="2" cellpadding="5">
+		<tr>
+			<td>First</td>
+			<td rowspan="2">Second</td>
+			<td>Third</td>
+		</tr>
+		<tr>
+			<td>Fourth</td>
+			<td>Fifth</td>
+			<td>Sixth</td>
+		</tr>
+	</table>
+	
+</body>
