@@ -16,46 +16,12 @@ $current_subpage = ""; # used for determining what nav dropdown button should be
 # Associative array which contains the site map. Dropdown menus have another associative array attached to them detailing the path of the pages, root of the page category, and all of the pages that should go into the dropdown menu.
 $navigation_links = [
 	"Home" => "index.php",
-	"HTML" => [
-		"path" => "html/",
-		"root" => "index.php",
-		"dropdown" => [
-			"HTML Basics" => "html-basics.php",
-			"HTML Images" => "html-images.php",
-			"HTML Tables" => "html-tables.php",
-			"HTML Forms" => "html-forms.php"
-		]
-	],
-	"CSS" => [
-		"path" => "css/",
-		"root" => "index.php",
-		"dropdown" => [
-			"CSS Basics" => "css-basics.php",
-			"CSS Colors" => "css-colors.php",
-			#"CSS Positioning" => "css-positioning.php",
-			"CSS Responsive Design" => "css-responsive-design.php"
-		]
-	],
-	/*"JavaScript" => [
-		"path" => "javascript/",
-		"root" => "index.php",
-		"dropdown" => [
-			"JS Basics" => "js-basics.php",
-			"JS Site Behavior" => "js-site-behavior.php"
-		]
-	],*/
-	"Creating a Website" => [
-		"path" => "creating-website/",
-		"root" => "index.php",
-		"dropdown" => [
-			"Planning" => "website-planning.php",
-			"Image Usage Rights" => "website-image-usage.php",
-			"Plagiarism" => "website-plagiarism.php",
-			#"Dark Patterns" => "website-dark-patterns.php",
-			"Annoying the User" => "website-annoying-user.php",
-			#"Compatibility" => "website-compatibility.php"
-		]
-	],
+	"BCC Services" => "services.php",
+	"Technology" => "technology.php",
+	"Note Taking" => "note-taking.php",
+	"Studying Tips" => "studying-tips.php",
+	"Time Management" => "time-management.php",
+	"Writing Emails" => "writing-emails.php",
 	"About Us" => [
 		"path" => "about/",
 		"root" => "index.php",
@@ -63,6 +29,7 @@ $navigation_links = [
 			"Sources" => "sources.php",
 		],
 	],
+	"Tutorial Test" => "tutorial-test.php",
 ];
 
 

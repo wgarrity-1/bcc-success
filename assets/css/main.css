@@ -25,7 +25,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	background-color: orange;
+	background-color: lightgray;
 	padding: 20px;
 	min-height: 100px;
 	flex: 0 0 auto;
@@ -48,37 +48,16 @@ header {
 	user-select: none;
 }
 
-#logo #logo-not-to {
-	display: inline-block;
-	border: 2px solid black;
-	background-color: red;
-	padding: 10px;
-	margin: 10px;
-	transform: rotate(10deg);
-}
-
-#motto {
+#motto, .mobile-motto {
 	font-family: 'JetBrains Mono', monospace;
 	font-weight: bold;
-	color: white;
+	color: #f7942a;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	user-select: none;
 }
 
-.not-to {
-	display: inline-block;
-	border: 2px solid black;
-	background-color: red;
-	padding: 10px;
-	margin: 10px;
-	transform: rotate(10deg);
-	font-weight: bold;
-	color: white;
-	font-family: 'Russo One', sans-serif;
-	user-select: none;
-}
-
+.mobile-motto {display: none;}
 
 
 /* Navbar Desktop */
@@ -87,7 +66,7 @@ header {
 }
 
 nav {
-	background-color: black;
+	background-color: #2a3059;
 }
 
 nav a {
@@ -111,20 +90,20 @@ nav .dropdown .dropdown-button {
 	outline: none;
 	color: white;
 	padding: 15px;
-	background-color: black;
+	background-color: #2a3059;
 	margin: 0;
 	cursor: pointer;
 	transition: background-color 0.2s;
 }
 
 nav a:hover, .dropdown:hover .dropdown-button, .dropdown-content a:hover {
-	background-color: orange;
+	background-color: #f7942a;
 }
 
 nav .dropdown .dropdown-content{
 	display: none;
 	position: absolute;
-	background-color: black;
+	background-color: #2a3059;
 	min-width: 200px;
 	z-index: 1;
 }
@@ -148,14 +127,14 @@ nav .nav-right {
 }
 
 #current-page {
-	background-color: orange;
+	background-color: #f7942a;
 }
 
 
 /* Footer */
 footer {
 	flex: 0 0 auto;
-	background-color: orange;
+	background-color: #f7942a;
 	color: white;
 	padding: 15px;
 	font-weight: bold;
@@ -181,8 +160,8 @@ main {
 
 main .left-sidebar, .right-sidebar {
 	box-sizing: border-box;
-	background-color: lightgray;
-	flex: 0 1 15%;
+	background-color: white;
+	flex: 0 1 5%;
 }
 
 .left-sidebar #left-advert {
@@ -193,7 +172,7 @@ main .left-sidebar, .right-sidebar {
 
 main .content{
 	box-sizing: border-box;
-	flex-basis: 70%;
+	flex-basis: 90%;
 	padding: 30px;
 }
 
@@ -216,7 +195,7 @@ main h1 {
 	margin: 10px;
 	padding: 20px;
 	max-width: 300px;
-	background-color: lightskyblue;
+	background-color: #2a3059;
 	color: white;
 	border-radius: 20px;
 	display: flex;
@@ -251,7 +230,7 @@ main h1 {
 	width: 50%;
 	margin: 10px auto 0px auto;
 	padding: 10px;
-	background-color: orange;
+	background-color: #f7942a;
 	font-size: 1.3rem;
 	color: white;
 	text-decoration: none;
@@ -260,11 +239,11 @@ main h1 {
 }
 
 .site-section .section-link a:hover {
-	background-color: #d18700;
+	background-color: #e16f45;
 }
 
 .site-section .section-link a.blocked {
-	background-color: #d18700;
+	background-color: #e16f45;
 	pointer-events: none;
 }
 
@@ -277,6 +256,7 @@ main h1 {
 @media only screen and (max-width: 850px){
 	nav {display: none;}
 	#motto {display: none;}
+	.mobile-motto {display: block;}
 	header {display: block;}
 	.right-header {display: none;}
 	
@@ -360,19 +340,27 @@ main h1 {
 	}
 	
 	#current-page-mobile {
-		color: orange;
+		color: #e16f45;
 		font-weight: bolder;
 	}
 	
 }
 
 /* Needed so that on smaller screens the close button and the links do not overlap according to W3Schools */
-@media screen and (max-height: 450px) {
+@media only screen and (max-width: 450px) {
 	.mobile-nav-content a {font-size: 1rem;}
 	
 	.mobile-nav .mobile-nav-close {
 		font-size: 2rem;
 		top: 15px;
 		right: 35px;
+	}
+
+	#logo img {
+		width: 200px;
+	}
+
+	#logo {
+		text-align: center;;
 	}
 }

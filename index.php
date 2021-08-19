@@ -34,6 +34,9 @@ $current_subpage = "";
 				<div id="logo" onclick="window.location.href='index.php'">
 					<img src="assets/images/bcc_logo.png" alt="BCC Logo"></img>
 				</div>
+				<div class="mobile-motto">
+					A guide to student success at BCC
+				</div>
 			</div>
 			
 			<div class="right-header">
