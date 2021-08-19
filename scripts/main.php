@@ -1,7 +1,7 @@
 <?php
 
-$footer_copy = "&copy;2020 How Not to HTML";
-$footer_designer = "Site Designed by William Garrity";
+$footer_copy = "&copy;2021 William Garrity";
+$footer_designer = "Site desing based on <a href='https://hownottohtml.wgarrity.com/'>hownottohtml.wgarrity.com</a>";
 
 function outputCode($path){
 	$file = fopen($path, "r") or die("Unable to open file {$path}!");

@@ -3,7 +3,7 @@
 /*
 
 William Garrity
-12/9/2020
+8/18/2021
 
 This PHP file is to be used to create both the navigation bar and mobile navigation pane for the How Not To HTML website for each page. There is one big associative array which is the site map. There are two functions, getNavLinks() and getMobileNavLinks() which return HTML for the nav bar and the mobile nav pane respectively.
 
@@ -56,9 +56,13 @@ $navigation_links = [
 			#"Compatibility" => "website-compatibility.php"
 		]
 	],
-	"About Us" => "about.php",
-	"Register" => "account/register.php",
-	"Login" => "account/login.php",
+	"About Us" => [
+		"path" => "about/",
+		"root" => "index.php",
+		"dropdown" => [
+			"Sources" => "sources.php",
+		],
+	],
 ];
 
 
