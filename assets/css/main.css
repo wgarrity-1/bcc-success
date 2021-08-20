@@ -27,7 +27,7 @@ header {
 	align-items: center;
 	background-color: lightgray;
 	padding: 20px;
-	min-height: 100px;
+	min-height: 75px;
 	flex: 0 0 auto;
 }
 
@@ -161,7 +161,7 @@ main {
 main .left-sidebar, .right-sidebar {
 	box-sizing: border-box;
 	background-color: white;
-	flex: 0 1 5%;
+	flex: 0 1 10%;
 }
 
 .left-sidebar #left-advert {
@@ -172,7 +172,7 @@ main .left-sidebar, .right-sidebar {
 
 main .content{
 	box-sizing: border-box;
-	flex-basis: 90%;
+	flex-basis: 80%;
 	padding: 30px;
 }
 
@@ -189,6 +189,7 @@ main h1 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-top: 20px;
 }
 
 .site-sections .site-section {

@@ -6,6 +6,10 @@ h2 {
 	font-size: 2rem;
 }
 
+.content p {
+	font-size: 1.2rem;
+}
+
 .notice-box {
 	background-color: lightyellow;
 	padding: 15px;
@@ -59,7 +63,7 @@ h2 {
 }
 
 table {
-	border: 5px solid orange;
+	border: 5px solid #f7942a;
 	font-size: 1.1rem;
 	border-spacing: 0px;
 	margin: auto;
@@ -84,7 +88,7 @@ th, td {
 
 .little-quiz-button {
 	display: block;
-	background-color: orange;
+	background-color: #f7942a;
 	color: white;
 	width: 30%;
 	margin-top: 15px;
@@ -98,7 +102,7 @@ th, td {
 }
 
 .little-quiz-button:hover {
-	background-color: #d18700;
+	background-color: #e16f45;
 }
 
 #feedback {
@@ -125,6 +129,7 @@ ul li{
 	color: lightgray;
 	font-size: 1px;
 }
+
 
 
 @media only screen and (max-width: 450px){
