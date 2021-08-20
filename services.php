@@ -64,25 +64,25 @@ $home_location = "index.php";
 				
 				<h1><?=$current_subpage?></h1>
 				<h2>Why is this important?</h2>
-                <p>Berkshire Community College has many resources to help students to succeed at college and beyond. From tutoring services to research services to special groups that support each other, BCC has it all. By taking part in these services you are almost guarenteed to succeed in college.</p>
+                <p>Berkshire Community College has many resources to help students to succeed at college and beyond. From tutoring services to research services to special groups that support each other, BCC has it all. By taking part in these services, you are almost guaranteed to succeed in college.</p>
 
                 <h2>BCC Tutoring</h2>
                 <p>Berkshire Community College provides free tutoring for all students in most courses. BCC Tutors can help students that are struggling in a course, or even students that are doing well to help them to succeed even more. BCC tutors are well versed in the course content, either from taking the course at BCC (peer tutors) or from work experience (community tutors). Tutors can provide one on one tutoring and help students with studying and preparing for tests.</p>
                 <p><a href="https://www.berkshirecc.edu/academics/academic-support/tutorial-services/">Check out BCC's Tutorial Service webpage for more information!</a></p>
 
                 <h2>Library and Digital Commons</h2>
-                <p>The BCC Library and Digital Commons provides many benefical services to BCC students. Along with the usual library services, the BCC library provides access to many acadmeic databases for helping out with research projects, an easy to access search interface for searching all databases, and provides free textbooks to be used in the library. The BCC Digital Commons inside the library also has a computer lab that all students can use, a technology helpdesk, as well as free black and white printing.</p>
+                <p>The BCC Library and Digital Commons provides many beneficial services to BCC students. Along with the usual library services, the BCC library provides access to many academic databases for helping out with research projects, an easy to access search interface for searching all databases, and provides free textbooks to be used in the library. The BCC Digital Commons inside the library also has a computer lab that all students can use, a technology helpdesk, as well as free black and white printing.</p>
                 <p><a href="https://www.berkshirecc.edu/about-bcc/library/index.php/">Check out the BCC Library webpage to learn more about library services</a></p>
                 <p><a href="https://www.berkshirecc.edu/about-bcc/campus-services/computer-labs/">Check out the BCC Digital Commons webpage to learn more about the Digital Commons services</a></p>
 
                 <h2>TRIO</h2>
-                <p>TRIO is a program at BCC that provides supports for fist-generation college students, low-income students, and students with disabilities. TRIO provides specialized tutoring services (both individual and group tutoring), life skills training, and counseling. The program also provides an oppurtunity to socialize with other students in the TRIO program.</p>
+                <p>TRIO is a program at BCC that provides supports for fist-generation college students, low-income students, and students with disabilities. TRIO provides specialized tutoring services (both individual and group tutoring), life skills training, and counseling. The program also provides an opportunity to socialize with other students in the TRIO program.</p>
                 <p><a href="https://www.berkshirecc.edu/student-engagement/the-trio-program/index.php">Click here to learn more about the TRIO program at BCC</a></p>
 
                 <h2>How we will use this</h2>
                 <p><em>William</em> - I plan on trying to take advantage of the BCC tutoring center for my courses this fall as well as signing up for the TRIO program as I believe I qualify.</p>
-                <p><em>Nicole</em> - </p>
-                <p><em>Raelyn</em> - </p>
+                <p><em>Nicole</em> - I will likely use the services provided by the library for printing and learning from the multiple interesting topics available.</p>
+                <p><em>Raelyn</em> - I will be applying to TRIO and tutoring services ahead of time so I won’t need to join at the last minute while I am stressed about my classes and grades. </p>
 			
 				<div class="little-quiz">
 					<div class="little-quiz-header">Quiz</div>

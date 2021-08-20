@@ -1,7 +1,7 @@
 <?php
 
-$footer_copy = "&copy;2021 William Garrity";
-$footer_designer = "Site desing based on <a href='https://hownottohtml.wgarrity.com/'>hownottohtml.wgarrity.com</a>";
+$footer_copy = "&copy;2021 William Garrity, Nicole Fillio, and Raelyn Wisner";
+$footer_designer = "Site design based on <a href='https://hownottohtml.wgarrity.com/'>hownottohtml.wgarrity.com</a>";
 
 function outputCode($path){
 	$file = fopen($path, "r") or die("Unable to open file {$path}!");

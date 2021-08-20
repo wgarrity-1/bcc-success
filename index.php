@@ -63,7 +63,7 @@ $current_subpage = "";
 			<div class="content">
 				
 				<div id="homepage-top-words">
-					Are you a new student that want's to succeed at BCC?
+					Are you a new student that wants to succeed at BCC?
 				</div>
 				
 				<div id="homepage-sub-words">

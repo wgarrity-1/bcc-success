@@ -67,7 +67,7 @@ $home_location = "index.php";
 				<p>Especially after COVID there are going to be more online and digital components to your college courses. Heck some of your courses may be completely online. At BCC the main tech services you will be dealing with is Moodle, Microsoft Word and Excel, and WebAdvisor. By knowing how to use these services you will be able to complete your coursework effectively and be able to succeed in your courses!</p>
 
                 <h2>Moodle</h2>
-                <p>At BCC, Moodle is used in most courses as a place for instructors to post assignments and to post class materials and other class information. In Moodle you can find assignment due dates, submit assignments, staying organized with assignment due dates with the Moodle Calendar, send messages to classmates via quickmail, and more! If you are used to using anything like Canvas or Schoology, then Moodle should be easy to learn.</p>
+                <p>At BCC, Moodle is used in most courses as a place for instructors to post assignments and to post class materials and other class information. In Moodle you can find assignment due dates, submit assignments, stay organized with assignment due dates with the Moodle Calendar, send messages to classmates via quickmail, and more! If you are used to using anything like Canvas or Schoology, then Moodle should be easy to learn.</p>
                 <p><a href="https://docs.google.com/document/d/1I5e3UFTusVTem9GUJZIsPrF6R-57AfKLR4cgJbIlS9M/edit">Check out the BCC Moodle User's Guide to learn more on how to use Moodle at BCC!</a></p>
 
                 <h2>Microsoft Word and Excel</h2>
@@ -76,7 +76,7 @@ $home_location = "index.php";
                 <p><a href="https://www.berkshirecc.edu/knowledge/microsoft-office/word-paragraph-spacing.php">Check out the BCC's Word Paragraph Spacing article on how to format your papers correctly for your courses</a></p>
                 <p><a href="https://berkshirecc.smartcatalogiq.com/Current/Catalog/Courses/CIS-Computer-Info-Systems/100/CIS-102">Also check out taking CIS-102 Fundamental Computer Literacy to learn how to use Microsoft Word, Excel, and PowerPoint</a></p>
                 <h3>Excel</h3>
-                <p>Microsoft Excel is also crucial to know for college, especially if you are majoring in a STEM field. With Excel you can mange sets of data, do math on sets of data (ex. find averages of a set of data), format sets of data, and use Excel's many functions.</p>
+                <p>Microsoft Excel is also crucial to know for college, especially if you are majoring in a STEM field. With Excel you can manage sets of data, do math on sets of data (ex. find averages of a set of data), format sets of data, and use Excel's many functions.</p>
                 <p><a href="assets/excel-tutorial.xlsx">Check out this Excel tutorial file given to BCC STEM 101 student!</a></p>
                 <p><a href="https://berkshirecc.smartcatalogiq.com/Current/Catalog/Courses/CIS-Computer-Info-Systems/100/CIS-102">Also check out taking CIS-102 Fundamental Computer Literacy to learn how to use Microsoft Word, Excel, and PowerPoint</a></p>
 
@@ -86,8 +86,8 @@ $home_location = "index.php";
 
                 <h2>How we will use this</h2>
                 <p><em>William</em> - I plan on maintaining my skills in Word, Excel, and Moodle to be successful at BCC in the fall!</p>
-                <p><em>Nicole</em> - </p>
-                <p><em>Raelyn</em> - </p>
+                <p><em>Nicole</em> - I will use these programs to complete my assignments for the classes I am in during the semester and I will use WebAdvisor to make payments to my student bill and view my schedule for classes.</p>
+                <p><em>Raelyn</em> - Since I am a CS major, I will be using all of the Microsoft Office applications for my classes. Moodle and WebAdvisor are a must for me to check my bills and manage my assignments and classes.</p>
 			
 				<div class="little-quiz">
 					<div class="little-quiz-header">Quiz</div>
