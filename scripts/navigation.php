@@ -29,7 +29,6 @@ $navigation_links = [
 			"Sources" => "sources.php",
 		],
 	],
-	"Tutorial Test" => "tutorial-test.php",
 ];
 
 

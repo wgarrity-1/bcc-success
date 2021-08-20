@@ -77,6 +77,7 @@ $home_location = "index.php";
 
                 <h2>The Cornell Method</h2>
                 <p>The Cornell Method of note taking where there are two columns, the cue/recall column on the left 1/3rd of the page and the notes column on the remaining 2/3rds of the page. The notes column is where notes are taken and any of the other note taking methods can be used. The cue column is where you write down the key ideas and concepts with questions and main points, which can be used later to help you to study and recall what you wrote down. This method also includes writing a summary at the bottom of the page.</p>
+				<p><a href="https://templatelab.com/cornell-notes/">Check out this site for some good Cornell Note templates!</a></p>
 
                 <h2>Remember to Summarize</h2>
                 <p>After your class or lecture, it is good practice to write a summary of what you learned as soon as possible after the class or lecture so that it sticks into head better. The Cornell Method emphasizes this with its bottom section dedicated to just a summary, but you should use it with the other note taking methods as well.</p>

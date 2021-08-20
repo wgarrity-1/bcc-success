@@ -68,7 +68,13 @@ $home_location = "index.php";
                 <p>Did you notice how unprofessional that last sentence sounded? Your instructors will not like it if you send them emails that sound like a text message to your friends, they expect a professional email from you. A professional email creates a streamlined and concise communication between you and the instructor, show that you are professional and responsible, it’s appropriate for academic and work environments, it gets better responses from your instructor, and it cultivates confidence towards situations where you must communicate electronically to an adult in a professional setting.</p>
 
                 <h2>The Only Professional Email Template You Will Ever Need</h2>
-                <p></p>
+                <p>[Professional Greeting with honorific and name]</p>
+				<p>[Polite interest/meaningless niceness]</p>
+				<p>[Background information]. [The reason for your email]. [If applicable, explaining that you have tried to do this on your own beforehand]. [Restatement of your request].</p>
+				<p>[Thank them],</p>
+				<p>[Name]</p>
+				<br />
+				<p><a href="https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087">Check out this amazing article on how to write an email to your professor</a></p>
 				
 				<h2>How we will use this</h2>
                 <p><em>William</em> - I'm going to be writing a ton of emails in college to my professors, so knowing how to write professionally is key to making sure that they understand me clearly and I look like I am taking the email seriously.</p>
